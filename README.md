@@ -10,14 +10,14 @@ Prerequisites:
 https://nodejs.org/en/
 
 2) Download XMI to Mermaid Parser
-https://www.dropbox.com/sh/17za7ntei8n1fod/AAD6iDR0HhSYI01PmTOokqMaa?dl=0
+
 
 #####################################################################
 How to run:
-1) Öffne Command Prompt / Terminal 
-2) Öffne Hauptverzeichnis des Parsers 
-3) Definiere Input Modell in 'server.js' unter: var datafile = "data/model.xmi";
-3) 'node server.js' ausführen
-4) Die Anwendung parsed das XMI-Modell , und erstellt ein html file im 
-   /data/-Verzeichnis welches das Diagramm darstellt
+1) Open Command Prompt / Terminal 
+2) Open Main Directory of the Parser
+3) Define Input Modell in 'server.js' in: var datafile = "data/model.xmi";
+3) execute 'node server.js' 
+4) XMI-Model is parsed and html file created in
+   /output/ directory
    
