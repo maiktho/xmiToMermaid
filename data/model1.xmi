@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fC3ccGe1EeWu69h3hUqtVA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_fHcacGe1EeWu69h3hUqtVA" name="Login to Webpage">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_k9Ms4Ge1EeWu69h3hUqtVA" name=":User" coveredBy="_wcHnQGe1EeWu69h3hUqtVA __JaiIGe1EeWu69h3hUqtVA _JMo6kGe2EeWu69h3hUqtVA _RfwAQGe2EeWu69h3hUqtVA _WhhbkGe3EeWu69h3hUqtVA _YAhJIGe3EeWu69h3hUqtVA _WertgGe4EeWu69h3hUqtVA _o11gcGe3EeWu69h3hUqtVA _o138sGe3EeWu69h3hUqtVA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mX-BwGe1EeWu69h3hUqtVA" name=":Server" coveredBy="_8YOM4Ge1EeWu69h3hUqtVA __JbJMGe1EeWu69h3hUqtVA _JMoTgGe2EeWu69h3hUqtVA _NL8owGe2EeWu69h3hUqtVA _RfwnUGe2EeWu69h3hUqtVA _YJ_DoGe2EeWu69h3hUqtVA _G7yc0Ge3EeWu69h3hUqtVA _WhiCoGe3EeWu69h3hUqtVA _YAgiEGe3EeWu69h3hUqtVA _o11gcGe3EeWu69h3hUqtVA _o138sGe3EeWu69h3hUqtVA _WerGcGe4EeWu69h3hUqtVA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_rgmIcGe1EeWu69h3hUqtVA" name=":Authentication Server" coveredBy="_WqMr4Ge2EeWu69h3hUqtVA _YJ_qsGe2EeWu69h3hUqtVA _aLBuUGe2EeWu69h3hUqtVA _4s1q0Ge2EeWu69h3hUqtVA _-EAj0Ge2EeWu69h3hUqtVA _-EBK4Ge2EeWu69h3hUqtVA _G7x1wGe3EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JaiIGe1EeWu69h3hUqtVA" name="MessageSend" covered="_k9Ms4Ge1EeWu69h3hUqtVA" message="__JYs8Ge1EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_wcHnQGe1EeWu69h3hUqtVA" name="ActionExecSpec" covered="_k9Ms4Ge1EeWu69h3hUqtVA" finish="_WhhbkGe3EeWu69h3hUqtVA" start="__JaiIGe1EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_8YOM4Ge1EeWu69h3hUqtVA" name="ActionExecSpec0" covered="_mX-BwGe1EeWu69h3hUqtVA" finish="_JMoTgGe2EeWu69h3hUqtVA" start="__JbJMGe1EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JbJMGe1EeWu69h3hUqtVA" name="MessageRecv" covered="_mX-BwGe1EeWu69h3hUqtVA" message="__JYs8Ge1EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JMoTgGe2EeWu69h3hUqtVA" name="MessageSend0" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_JMnFYGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JMo6kGe2EeWu69h3hUqtVA" name="MessageRecv0" covered="_k9Ms4Ge1EeWu69h3hUqtVA" message="_JMnFYGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RfwAQGe2EeWu69h3hUqtVA" name="MessageSend1" covered="_k9Ms4Ge1EeWu69h3hUqtVA" message="_RfuyIGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_NL8owGe2EeWu69h3hUqtVA" name="ActionExecSpec1" covered="_mX-BwGe1EeWu69h3hUqtVA" finish="_WhiCoGe3EeWu69h3hUqtVA" start="_RfwnUGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RfwnUGe2EeWu69h3hUqtVA" name="MessageRecv1" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_RfuyIGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YJ_DoGe2EeWu69h3hUqtVA" name="MessageSend2" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_YJ91gGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_WqMr4Ge2EeWu69h3hUqtVA" name="ActionExecSpec2" covered="_rgmIcGe1EeWu69h3hUqtVA" finish="_G7x1wGe3EeWu69h3hUqtVA" start="_YJ_qsGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YJ_qsGe2EeWu69h3hUqtVA" name="MessageRecv2" covered="_rgmIcGe1EeWu69h3hUqtVA" message="_YJ91gGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EAj0Ge2EeWu69h3hUqtVA" name="MessageSend3" covered="_rgmIcGe1EeWu69h3hUqtVA" message="_-D_8wGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_aLBuUGe2EeWu69h3hUqtVA" name="ActionExecSpec3" covered="_rgmIcGe1EeWu69h3hUqtVA" finish="_4s1q0Ge2EeWu69h3hUqtVA" start="_-EBK4Ge2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-EBK4Ge2EeWu69h3hUqtVA" name="MessageRecv3" covered="_rgmIcGe1EeWu69h3hUqtVA" message="_-D_8wGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_4s1q0Ge2EeWu69h3hUqtVA" name="ActionExecSpec3Finish" covered="_rgmIcGe1EeWu69h3hUqtVA" execution="_aLBuUGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G7x1wGe3EeWu69h3hUqtVA" name="MessageSend4" covered="_rgmIcGe1EeWu69h3hUqtVA" message="_G7wnoGe3EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G7yc0Ge3EeWu69h3hUqtVA" name="MessageRecv4" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_G7wnoGe3EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YAgiEGe3EeWu69h3hUqtVA" name="MessageSend5" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_YAfT8Ge3EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_WhiCoGe3EeWu69h3hUqtVA" name="ActionExecSpec1Finish" covered="_mX-BwGe1EeWu69h3hUqtVA" execution="_NL8owGe2EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YAhJIGe3EeWu69h3hUqtVA" name="MessageRecv5" covered="_k9Ms4Ge1EeWu69h3hUqtVA" message="_YAfT8Ge3EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_WhhbkGe3EeWu69h3hUqtVA" name="ActionExecSpecFinish" covered="_k9Ms4Ge1EeWu69h3hUqtVA" execution="_wcHnQGe1EeWu69h3hUqtVA"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_o11gcGe" name="CombinedFragment" covered="_mX-BwGe1EeWu69h3hUqtVA _k9Ms4Ge1EeWu69h3hUqtVA" interactionOperator="loop">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_o138sGe3EeWu69h3hUqtVA" name="InteractionOperand" covered="_mX-BwGe1EeWu69h3hUqtVA _k9Ms4Ge1EeWu69h3hUqtVA">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WerGcGe4EeWu69h3hUqtVA" name="MessageSend" covered="_mX-BwGe1EeWu69h3hUqtVA" message="_Wep4UGe4EeWu69h3hUqtVA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WertgGe4EeWu69h3hUqtVA" name="MessageRecv" covered="_k9Ms4Ge1EeWu69h3hUqtVA" message="_Wep4UGe4EeWu69h3hUqtVA"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_o14jwGe3EeWu69h3hUqtVA">
+          <specification xmi:type="uml:LiteralString" xmi:id="_o15K0Ge3EeWu69h3hUqtVA" value="undefined"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_o17AAGe3EeWu69h3hUqtVA" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_o16Y8Ge3EeWu69h3hUqtVA"/>
+        </guard>
+      </operand>
+    </fragment>
+    <message xmi:type="uml:Message" xmi:id="__JYs8Ge1EeWu69h3hUqtVA" name="Request Webpage" receiveEvent="__JbJMGe1EeWu69h3hUqtVA" sendEvent="__JaiIGe1EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_JMnFYGe2EeWu69h3hUqtVA" name="Request Login" messageSort="reply" receiveEvent="_JMo6kGe2EeWu69h3hUqtVA" sendEvent="_JMoTgGe2EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_RfuyIGe2EeWu69h3hUqtVA" name="Submit Credentials" receiveEvent="_RfwnUGe2EeWu69h3hUqtVA" sendEvent="_RfwAQGe2EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_YJ91gGe2EeWu69h3hUqtVA" name="Check if User exists" receiveEvent="_YJ_qsGe2EeWu69h3hUqtVA" sendEvent="_YJ_DoGe2EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_-D_8wGe2EeWu69h3hUqtVA" name="User &amp; Password Lookup" receiveEvent="_-EBK4Ge2EeWu69h3hUqtVA" sendEvent="_-EAj0Ge2EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_G7wnoGe3EeWu69h3hUqtVA" name="Login Granted" messageSort="reply" receiveEvent="_G7yc0Ge3EeWu69h3hUqtVA" sendEvent="_G7x1wGe3EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_YAfT8Ge3EeWu69h3hUqtVA" name="Send Webpage" messageSort="reply" receiveEvent="_YAhJIGe3EeWu69h3hUqtVA" sendEvent="_YAgiEGe3EeWu69h3hUqtVA"/>
+    <message xmi:type="uml:Message" xmi:id="_Wep4UGe4EeWu69h3hUqtVA" name="Async Content Update" messageSort="asynchCall" receiveEvent="_WertgGe4EeWu69h3hUqtVA" sendEvent="_WerGcGe4EeWu69h3hUqtVA"/>
+  </packagedElement>
+</uml:Model>
