@@ -3,7 +3,7 @@ var dom = require("xmldom")
 var domparser = dom.DOMParser;
 var xpath = require("xpath");
 
-function getFiles (dir, files_){
+function loadFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
@@ -20,7 +20,7 @@ function getFiles (dir, files_){
 var xmiLibrary = require("./lib/xmiLibrary");
 
 // Input
-var datafile = getFiles("data");
+var datafile = loadFiles("data");
 // var datafile = "data/model2.xmi";
 // var datafile = "data/model.xml";
 
